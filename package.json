@@ -1,0 +1,63 @@
+{
+  "name": "jsreport-office-password",
+  "version": "0.0.0",
+  "description": "jsreport extension adding password protection to office reports",
+  "main": "index.js",
+  "homepage": "https://github.com/jsreport/jsreport-office-password",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsreport/jsreport-office-password.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsreport/jsreport-office-password/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "keywords": [
+    "jsreport",
+    "office",
+    "office protection",
+    "office password"
+  ],
+  "author": "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
+  "contributors": [
+    "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
+    "Jan Blaha <jan.blaha@hotmail.com>"
+  ],
+  "scripts": {
+    "start": "jsreport-studio-start --httpPort 4800",
+    "build": "jsreport-studio-build",
+    "test": "mocha test --timeout 5000 && standard",
+    "prepublish": "in-publish && jsreport-studio-build || not-in-publish"
+  },
+  "files": [
+    "lib",
+    "studio",
+    "index.js",
+    "jsreport.config.js"
+  ],
+  "standard": {
+    "ignore": [
+      "main.js"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+      "node": true,
+      "mocha": true,
+      "browser": true
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.4.0",
+    "eslint-config-standard-jsx": "8.1.0",
+    "eslint-plugin-babel": "5.3.0",
+    "in-publish": "2.0.0",
+    "mocha": "6.2.0",
+    "should": "13.2.3",
+    "standard": "14.3.1"
+  }
+}
