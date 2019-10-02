@@ -36,7 +36,7 @@ class OfficePasswordTemplateProperties extends Component {
           <label>Enabled</label>
           <input
             type='checkbox'
-            checked={officePassword.enabled === true}
+            checked={officePassword.enabled !== false}
             onChange={(v) => changeOfficePassword({ enabled: v.target.checked })}
           />
         </div>
