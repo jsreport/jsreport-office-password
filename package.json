@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "jsreport-office": "github:jsreport/jsreport-office",
+    "jsreport-office": "github:jsreport/jsreport-office#expose-helpers-and-content",
     "xlsx-populate": "1.20.1"
   },
   "devDependencies": {
@@ -59,7 +59,7 @@
     "eslint-config-standard-jsx": "8.1.0",
     "eslint-plugin-babel": "5.3.0",
     "in-publish": "2.0.0",
-    "jsreport-core": "github:jsreport/jsreport-core",
+    "jsreport-core": "github:jsreport/jsreport-core#encryption",
     "jsreport-html-to-xlsx": "2.4.0",
     "jsreport-studio-dev": "1.5.0",
     "jsreport-templates": "2.3.2",
