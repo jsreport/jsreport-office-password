@@ -74,8 +74,7 @@ describe('office-password', () => {
         engine: 'none',
         recipe: 'html-to-xlsx',
         officePassword: {
-          passwordRaw: password,
-          enabled: true
+          password
         }
       }
     })
@@ -115,7 +114,7 @@ describe('office-password', () => {
       template: {
         shortid: t.shortid,
         officePassword: {
-          passwordRaw: password
+          password
         }
       }
     })
