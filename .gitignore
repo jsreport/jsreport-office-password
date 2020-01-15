@@ -40,3 +40,4 @@ data
 dev.config.json
 prod.config.json
 jsreport.config.json
+.vscode

@@ -50,21 +50,21 @@
     }
   },
   "dependencies": {
-    "jsreport-office": "github:jsreport/jsreport-office#expose-helpers-and-content",
+    "jsreport-office": "github:jsreport/jsreport-office",
     "xlsx-populate": "1.20.1"
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
-    "eslint": "6.4.0",
+    "eslint": "6.8.0",
     "eslint-config-standard-jsx": "8.1.0",
     "eslint-plugin-babel": "5.3.0",
     "in-publish": "2.0.0",
-    "jsreport-core": "github:jsreport/jsreport-core#encryption",
-    "jsreport-html-to-xlsx": "2.4.0",
+    "jsreport-core": "github:jsreport/jsreport-core",
+    "jsreport-html-to-xlsx": "github:jsreport/jsreport-html-to-xlsx",
     "jsreport-studio-dev": "1.5.0",
     "jsreport-templates": "2.3.2",
-    "mocha": "6.2.0",
-    "puppeteer": "1.20.0",
+    "mocha": "7.0.0",
+    "puppeteer": "2.0.0",
     "should": "13.2.3",
     "standard": "14.3.1"
   }
