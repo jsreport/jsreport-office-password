@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "jsreport-office": "1.2.2",
+    "jsreport-office": "1.2.3",
     "xlsx-populate": "1.20.1"
   },
   "devDependencies": {
@@ -60,7 +60,7 @@
     "eslint-plugin-babel": "5.3.1",
     "in-publish": "2.0.1",
     "jsreport-core": "2.10.1",
-    "jsreport-html-to-xlsx": "2.8.5",
+    "jsreport-html-to-xlsx": "2.8.6",
     "jsreport-studio-dev": "1.6.0",
     "jsreport-templates": "2.4.0",
     "mocha": "7.0.0",
